@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style4.css">
+   <title>Document</title>
+</head>
+
+<body id="html4">
+
+   <div class="wrapper">
+      <header>
+         <div class="header__container">
+            <nav>
+               <ul>
+                  <li class="main-page"><a>Главная</a></li>
+                  <li><a>Мои кошельки</a></li>
+                  <li><a>Мои транзакции</a></li>
+               </ul>
+            </nav>
+            <div class="email">
+               <span>alexadams@google.com</span>
+               <img class="exit" src="./images/log-out (1) 1.svg">
+            </div>
+         </div>
+      </header>
+
+      <main>
+         <div class="main__container">
+            <div class="user">
+               <h1>Добро пожаловать, Alex Adams<span class="user1"></span></h1>
+               <a href="#">alexadams@google.com</a>
+            </div>
+
+               <div class="block_cards">
+                  <div class="card">
+                     <p class="visa">Visa</p>
+                     <p>RUB</p>
+                  </div>
+
+            </div>
+            <div class="buttons">
+            <button class="btn">Добавить</button>
+            <button class="add_trnz">Добавить транзакцию</button>
+            </div>
+
+
+            <div class="wrapper__container">
+                  <h1>Мои транзакции</h1>
+                  <div class="cont">
+                     <div class="cont-top">
+                        <div class="cont-left">
+                           <p>ID</p>
+                           <p>Отправлено с кошелька</p>
+                        </div>
+                        <div class="cont-right">
+                           <p>Категория</p>
+                           <p>Сумма транзакции</p>
+                           <p>Когда</p>
+                        </div>
+                     </div>
+                     <div class="cont-top tp2">
+                        <div class="cont-left2">
+                           <p>11111</p>
+                           <p>Visa</p>
+                        </div>
+                        <div class="cont-right2">
+                           <p>Развлечения</p>
+                           <p>1000000</p>
+                           <p>вчера</p>
+                        </div>
+                     </div>
+                  </div>
+            </div>
+            
+
+         <div class="modalBg">
+
+           <div class="modal">
+                 <img src="./images/1814110_close_less_minus_icon.svg" class="close">
+                 <div class="box">
+                  <h1>Добавить кошелёк</h1>
+                  <form name="add">
+                     <select name="company">
+                        <option disabled selected>Тип</option>
+                        <option>MasterCard</option>
+                        <option>Humo</option>
+                        <option>Uzcard</option>   
+                        <option>VISA</option>   
+                        <option>Сбербанк</option>   
+                        <option>Qiwi</option>   
+                     </select>
+                     <select name="currency">
+                        <option disabled selected>Валюта</option>
+                        <option>USD</option>
+                        <option>UZS</option>
+                        <option>RUB</option>   
+                        <option>EUR</option>   
+                        <option>KZT</option>   
+                     </select>
+                     <button class="inp-btn">СОЗДАТЬ</button>
+                  </form>
+                 </div>
+           </div>
+
+         </div>
+
+         <div class="modal__bg">
+            <div class="modal__trz">
+               <img src="./images/1814110_close_less_minus_icon.svg" class="close cls">
+               <div class="box box2">
+                <h2 class="addtrza">Добавить транзакцию</h2>
+                <form name="adding">
+                   <select name="wallet" class="selected">
+                      <option disabled selected>Из кошелька</option>
+                      <option class="opt-visa">VISA</option>
+                      <option>Humo</option>
+                      <option>Mastercard</option>
+                   </select>
+                   <input class="inp" type="text" placeholder="Сумма" name="cash">
+                   <input class="inp" type="text" placeholder="Категория" name="category">
+                   <button class="inp-btn">Добавить</button>
+                </form>
+               </div>
+            </div>
+         </div>
+         </div>
+      </main>
+   </div>
+
+   <script type="module" src="./script4.js"></script>
+</body>
+
+</html>
