@@ -87,7 +87,7 @@ close.onclick = () => {
 const mainPage = document.querySelector('.main-page')
 
 mainPage.onclick = () => {
-    window.location.href = 'http://127.0.0.1:5500/htmlpage2/index2.html'
+    window.location.href = '../htmlpage2/index2.html'
     // alert('clicked')
 }
 
@@ -131,7 +131,7 @@ function sbmt() {
 // opt.onchange = () => {
     
 //     if(opt.value === 'Humo'){
-        
+//         alert('himo')
 //     } else{
 //         alert('not Humo')
 //     }
